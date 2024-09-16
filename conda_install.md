@@ -1,15 +1,29 @@
 
 
-# Instalar Anaconda en Linux
+# Instalar Anaconda en tu computadora (Mac M1, Linux 64 o Windows 64)
 
-* Descargar en el directorio home (personal) /home/ficovh (Linux) /Users/isavalladolid (mac)
+* Descargar en el directorio home (personal) /home/ficovh (Linux) /Users/isavalladolid (mac) la version de tu arquitectura.
+
+  _Linux_
 
 ```
     wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
 ```
-* Ejecutar desde la terminal:
+_Mac M1_
+
+```
+  https://repo.anaconda.com/archive/Anaconda3-2024.06-1-MacOSX-arm64.sh
+```
+
+_Windows_
+
+```
+https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Windows-x86_64.exe
+```
+
+* Ejecutar desde la terminal, cambia el nombre de la plataforma de acuerdo al archivo que hayas descargado.
   ```
-    $ bash Anaconda3-2024.06-1-Linux-x86_64.sh
+    $ bash Anaconda3-2024.06-1-{plataforma}.sh
   ```
 * Clonar el repositorio de trabajo.
   ```  
@@ -40,4 +54,4 @@
   ```
 * En este punto ya puedes ejecutar jupyter notebook y abrir tus archivos
 
-Enjoy.;-)
+Enjoy. ;-)
