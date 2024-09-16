@@ -4,7 +4,7 @@
 
 * Descargar en el directorio home (personal) /home/ficovh (Linux) /Users/isavalladolid (mac) la version de tu arquitectura.
 
-  _Linux_
+_Linux_
 
 ```
     wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Linux-x86_64.sh
@@ -12,13 +12,13 @@
 _Mac M1_
 
 ```
-  https://repo.anaconda.com/archive/Anaconda3-2024.06-1-MacOSX-arm64.sh
+    wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-MacOSX-arm64.sh
 ```
 
 _Windows_
 
-```
-https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Windows-x86_64.exe
+``` 
+    wget https://repo.anaconda.com/archive/Anaconda3-2024.06-1-Windows-x86_64.exe
 ```
 
 * Ejecutar desde la terminal, cambia el nombre de la plataforma de acuerdo al archivo que hayas descargado.
